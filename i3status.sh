@@ -7,6 +7,7 @@ do
 	RED="cb4b16"
 	MAGENTA="d33682"
 	BLUE="268bd2"
+	ORANGE="cb4b16"
 	ADD=""
 
 	# CMUS
@@ -19,6 +20,8 @@ do
 	if [ "$STATUS" = "playing" ]; then
 		COLOR="$BLUE"
 	elif [ "$STATUS" = "paused" ]; then
+		COLOR="$ORANGE"
+	else
 		COLOR="$RED"
 	fi
 
