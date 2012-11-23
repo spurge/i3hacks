@@ -51,5 +51,5 @@ do
 	LINE="${LINE//FF0000/$RED}"
 	LINE="${LINE//00FF00/$GREEN}"
 
-	echo "${LINE/[/[$ADD}" || exit 1
+	echo "${LINE/[{/[$ADD{}" || exit 1
 done )
